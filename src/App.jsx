@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
+import AppWrapper from './AppWrapper.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
+      <AppWrapper>
       <header className="App-header">
         <h1>React/server-sent-events Sandbox</h1>
         <h2>The SSE stuff</h2>
@@ -20,6 +22,7 @@ function App() {
           </button>
         </p>
       </header>
+      </AppWrapper>
     </div>
   )
 }
