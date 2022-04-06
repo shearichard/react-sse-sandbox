@@ -1,3 +1,3 @@
 # react-sse-sandbox
 
-An experiment with using React to be the recipeient of server-sent-events. 
+Experiments with using a React application to be the recipient of server-sent-events. 
