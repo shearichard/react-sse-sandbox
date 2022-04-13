@@ -39,12 +39,14 @@ class AppWrapper extends React.Component {
 	}
     processProductRequest(productRequest) {
         console.log("updateState is triggered")
+        this.props.setProductId(productRequest.product_code)
     }
     //--------------------------------------------------------------------
 	render() {
 		return (
 			<>
 			<h1>This is AppWrapper</h1>
+            <p>{this.props.productId}</p>
 			<div>
 				{this.props.children}
 			</div>
