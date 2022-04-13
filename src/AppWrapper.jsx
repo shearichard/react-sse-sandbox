@@ -45,11 +45,7 @@ class AppWrapper extends React.Component {
 	render() {
 		return (
 			<>
-			<h1>This is AppWrapper</h1>
-            <p>{this.props.productId}</p>
-			<div>
 				{this.props.children}
-			</div>
 			</>
 		)
 	}
